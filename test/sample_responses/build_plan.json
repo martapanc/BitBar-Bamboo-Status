@@ -1,0 +1,19 @@
+{
+    "projectKey": "SBS",
+    "projectName": "Supplier Booking Service",
+    "shortName": "develop",
+    "buildName": "develop",
+    "shortKey": "SBS4",
+    "enabled": true,
+    "link": {
+        "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/plan/SBS-SBS4",
+        "rel": "self"
+    },
+    "isActive": false,
+    "isBuilding": false,
+    "key": "SBS-SBS4",
+    "name": "Supplier Booking Service - Supplier Booking Service - develop",
+    "planKey": {
+        "key": "SBS-SBS4"
+    }
+}

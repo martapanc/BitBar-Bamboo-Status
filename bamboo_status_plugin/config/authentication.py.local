@@ -1,0 +1,6 @@
+credentials = {
+    'jira_credentials': {
+        'username': '',
+        'password': ''
+    }
+}

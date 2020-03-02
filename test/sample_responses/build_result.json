@@ -1,0 +1,72 @@
+{
+    "link": {
+        "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/result/SBS-SBS4-531",
+        "rel": "self"
+    },
+    "plan": {
+        "master": {
+            "shortName": "Supplier Booking Service",
+            "shortKey": "SBS",
+            "type": "chain",
+            "enabled": true,
+            "link": {
+                "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/plan/SBS-SBS",
+                "rel": "self"
+            },
+            "key": "SBS-SBS",
+            "name": "Supplier Booking Service - Supplier Booking Service",
+            "planKey": {
+                "key": "SBS-SBS"
+            }
+        },
+        "shortName": "develop",
+        "shortKey": "SBS4",
+        "type": "chain_branch",
+        "enabled": true,
+        "link": {
+            "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/plan/SBS-SBS4",
+            "rel": "self"
+        },
+        "key": "SBS-SBS4",
+        "name": "Supplier Booking Service - Supplier Booking Service - develop",
+        "planKey": {
+            "key": "SBS-SBS4"
+        }
+    },
+    "master": {
+        "shortName": "Supplier Booking Service",
+        "shortKey": "SBS",
+        "type": "chain",
+        "enabled": true,
+        "link": {
+            "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/plan/SBS-SBS",
+            "rel": "self"
+        },
+        "key": "SBS-SBS",
+        "name": "Supplier Booking Service - Supplier Booking Service",
+        "planKey": {
+            "key": "SBS-SBS"
+        }
+    },
+    "planName": "develop",
+    "lifeCycleState": "Finished",
+    "buildStartedTime": "2020-02-14T15:26:46.000Z",
+    "prettyBuildStartedTime": "Fri, 14 Feb, 03:26 PM",
+    "buildCompletedTime": "2020-02-14T15:31:16.000Z",
+    "buildCompletedDate": "2020-02-14T15:31:16.000Z",
+    "prettyBuildCompletedTime": "Fri, 14 Feb, 03:31 PM",
+    "buildDurationInSeconds": 496,
+    "buildDuration": 496972,
+    "buildDurationDescription": "8 minutes",
+    "buildRelativeTime": "2 minutes ago",
+    "buildTestSummary": "470 passed",
+    "successfulTestCount": 470,
+    "finished": true,
+    "successful": true,
+    "buildReason": "Manual run from the stage: <b>Deploy to Artifactory</b> by <a href=\"https://bamboo-master.server.traveljigsaw.com/browse/user/saled\">David Sale</a>",
+    "key": "SBS-SBS4-531",
+    "state": "Successful",
+    "buildState": "Successful",
+    "number": 531,
+    "buildNumber": 531
+}

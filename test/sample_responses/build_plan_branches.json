@@ -1,0 +1,47 @@
+{
+    "link": {
+        "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/plan/SBS-SBS/branch",
+        "rel": "self"
+    },
+    "branches": {
+        "size": 1,
+        "branch": [
+            {
+                "shortName": "develop",
+                "shortKey": "SBS4",
+                "enabled": true,
+                "link": {
+                    "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/plan/SBS-SBS4",
+                    "rel": "self"
+                },
+                "workflowType": "manual",
+                "key": "SBS-SBS4",
+                "name": "Supplier Booking Service - Supplier Booking Service - develop"
+            },
+            {
+                "shortName": "INT-1234",
+                "shortKey": "SBS1",
+                "enabled": true,
+                "link": {
+                    "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/plan/SBS-SBS1",
+                    "rel": "self"
+                },
+                "workflowType": "manual",
+                "key": "SBS-SBS1",
+                "name": "Supplier Booking Service - Supplier Booking Service - INT-1234"
+            },
+            {
+                "shortName": "INT-5678",
+                "shortKey": "SBS2",
+                "enabled": true,
+                "link": {
+                    "href": "https://bamboo-master.server.traveljigsaw.com/rest/api/latest/plan/SBS-SBS2",
+                    "rel": "self"
+                },
+                "workflowType": "manual",
+                "key": "SBS-SBS2",
+                "name": "Supplier Booking Service - Supplier Booking Service - INT-5678"
+            }
+        ]
+    }
+}

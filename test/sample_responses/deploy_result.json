@@ -1,0 +1,29 @@
+{
+    "size": 5,
+    "results": [
+        {
+            "deploymentVersion": {
+                "id": 250054232,
+                "name": "develop-531",
+                "creationDate": 1581694296000,
+                "creatorUserName": "saled",
+                "creatorDisplayName": "David Sale"
+            },
+            "deploymentVersionName": "develop-531",
+            "id": 250023976,
+            "deploymentState": "SUCCESS",
+            "lifeCycleState": "FINISHED",
+            "startedDate": 1581694613000,
+            "queuedDate": 1581694613000,
+            "executedDate": 1581694613000,
+            "finishedDate": 1581694665000,
+            "key": {
+                "key": "97648645-108298249-250023976",
+                "entityKey": {
+                    "key": "97648645-108298249"
+                },
+                "resultNumber": 250023976
+            }
+        }
+    ]
+}
