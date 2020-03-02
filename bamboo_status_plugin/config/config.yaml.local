@@ -1,0 +1,9 @@
+bamboo:
+  credentials:
+    username: your_username
+    password: your_password
+  config:
+    url: https://bamboo-example.server.com
+#    url: http://127.0.0.1:5000
+    plans: ['PLAN-A', 'PLAN-B']
+    deployment_project_id: 12345678

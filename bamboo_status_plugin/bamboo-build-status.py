@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 
-from config import authentication
-from config import config
 import requests
 from datetime import datetime
+import yaml
 
 DATETIME_FORMAT = '%d %b %Y %H:%M'
 
-USERNAME = authentication.credentials['jira_credentials']['username']
-PASSWORD = authentication.credentials['jira_credentials']['password']
-SERVER = config.config['bamboo']['url']
-PLANS = config.config['bamboo']['plans']
-DEPLOYMENT_PROJECT_ID = config.config['bamboo']['deployment_project_id']
+config = yaml.safe_load(open('bamboo_status_plugin/config/config.yaml'))['bamboo']
+
+USERNAME = config['credentials']['username']
+PASSWORD = config['credentials']['password']
+SERVER = config['config']['url']
+PLANS = config['config']['plans']
+DEPLOYMENT_PROJECT_ID = config['config']['deployment_project_id']
 
 
 def get_json_response(url):
