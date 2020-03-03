@@ -6,7 +6,7 @@ import yaml
 
 DATETIME_FORMAT = '%d %b %Y %H:%M'
 
-config = yaml.safe_load(open('bamboo_status_plugin/config/config.yaml'))['bamboo']
+config = yaml.safe_load(open('config/config.yaml'))['bamboo']
 
 USERNAME = config['credentials']['username']
 PASSWORD = config['credentials']['password']
